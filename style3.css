@@ -1,6 +1,15 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(/assents/little-kid-playing.jpg); /*imagem como preenchimento de plano de fundo*/
+    backdrop-filter: blur(1px);
+    background-repeat: no-repeat; 
+    background-size:cover; /*Escala a imagem o máximo possível*/
+    color: white;
+}
+
+.container-body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(assents/89933.jpg); /*imagem como preenchimento de plano de fundo*/
     backdrop-filter: blur(3px);
     background-repeat: no-repeat; 
     background-size:cover; /*Escala a imagem o máximo possível*/
@@ -21,7 +30,8 @@ body{
     gap: 1rem;
     border-radius: 20px;
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.35); /*para a transparencia funcionar a cor deve estar em rgb*/
+    background: rgb(2,0,36);
+    background: linear-gradient(187deg, rgba(2,0,36,0.2945553221288515) 0%, rgba(228,193,249,1) 46%, rgba(169,222,249,1) 100%);
 
 }
 
@@ -30,6 +40,8 @@ body{
     width: 100%;
     height: auto; /*evita que a foto fique desproporcional*/
     border-radius: 50%;
+    border: 4px solid #ffffff;
+    
 }
 
  
@@ -86,7 +98,7 @@ body{
     background-color: rgb(0 0 0 / 35%);
 }
 
-
+/*estilo da conteudo-posts*/
 .post1{
     padding: 10rem;
     border: 3px solid color(white);
@@ -111,6 +123,28 @@ body{
     padding: 10rem;
     border: 3px solid color(white);
     background-image: url(assents/little-boy-having-occupational-therapy-session.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    border-radius: 15px;
+    border-style:hidden;
+}
+
+.post4{
+    padding: 10rem;
+    border: 3px solid color(white);
+    background-image: url(assents/girl-with-headphones-smartphone-blue-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    border-radius: 15px;
+    border-style:hidden;
+}
+
+.post5{
+    padding: 10rem;
+    border: 3px solid color(white);
+    background-image: url(assents/cute-little-girl-holding-mind-bubbles-isolated-studio.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size:cover;

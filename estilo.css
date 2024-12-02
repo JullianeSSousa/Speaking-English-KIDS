@@ -23,9 +23,11 @@ body{
     
    
 }
+
+
 .logomenor{
     display: flex;
-    width: 150px;
+    width: 100px;
     margin-left: 1.5%;
     gap: 25px;
  
@@ -77,6 +79,7 @@ body{
 
 .botoes{
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 3%;
     margin-bottom: 5%;
@@ -165,3 +168,22 @@ strong{
 }
 
 
+@media (max-width: 768px) {
+    .sidebar{
+        text-align: center;
+    }
+
+    .side a.nav-link {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .btn {
+        display: block;
+        margin: 10px auto;
+    }
+
+    img.logoprincipal {
+        max-width: 80%;
+    }
+}
