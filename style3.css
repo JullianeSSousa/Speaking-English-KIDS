@@ -9,7 +9,7 @@ body{
 
 .container-body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(assents/89933.jpg); /*imagem como preenchimento de plano de fundo*/
+    background-image: url(assents/freepik__a-colorful-abstract-space-scene-with-swirling-clou__35377.jpeg); /*imagem como preenchimento de plano de fundo*/
     backdrop-filter: blur(3px);
     background-repeat: no-repeat; 
     background-size:cover; /*Escala a imagem o máximo possível*/
@@ -135,7 +135,7 @@ body{
     border: 3px solid color(white);
     background-image: url(assents/girl-with-headphones-smartphone-blue-background.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center baseline;
     background-size:cover;
     border-radius: 15px;
     border-style:hidden;
@@ -152,6 +152,17 @@ body{
     border-style:hidden;
 }
 
+
+.post6{
+    padding: 10rem;
+    border: 3px solid color(white);
+    background-image: url(assents/front-view-child-holding-pile-books-copy-space.jpg);
+    background-repeat: no-repeat;
+    background-position: center baseline;
+    background-size:cover;
+    border-radius: 15px;
+    border-style:hidden;
+}
 
 .icones{
     display: flex;

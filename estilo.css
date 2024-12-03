@@ -8,6 +8,12 @@
 
 body{
     font-family: "Open Sans", serif;
+    background-image: url(assents/24.jpg);
+    position: relative;
+    opacity: 15px;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    scale: 100%;
     
 }
 .sidebar{
@@ -53,13 +59,7 @@ a{
     color:black;
 }
 
-body{
-    background-image: url(assents/24.jpg);
-    position: relative;
-    opacity: 15px;
-    background-repeat: no-repeat; 
-    background-size:cover;
-}
+
 .informacao{
     display: flex;
     flex-direction: column;
@@ -119,7 +119,7 @@ body{
 
 h1{
     padding-top: 5rem;
-    font-size: 34px;
+    font-size: 38px;
     text-align: center;
 }
 
@@ -133,11 +133,13 @@ p{
 /*QUEM SOMOS*/
 
 .quemsomos{
-    background-color: rgba(189, 116, 232, 0.70);
-    width: 100%;
+    background-color: rgba(22, 135, 192, 0.7);
+    padding: 16% 0;
 
 
 }
+
+
 
 .programa{
     background-color: rgba(255, 255, 255, 0.75); 
@@ -159,7 +161,7 @@ p{
 
 
 h2{
-    font-size: 3rem;
+    font-size: 2rem;
     gap: 5rem;
     text-align: center;
 }
@@ -207,6 +209,12 @@ strong{
 @media (max-width: 768px) {
     .sidebar{
         text-align: center;
+    }
+
+    .body{
+        scale: 100%;
+        
+  
     }
 
     .side a.nav-link {
