@@ -27,7 +27,7 @@ body{
 
 .logomenor{
     display: flex;
-    width: 100px;
+    width: 150px;
     margin-left: 1.5%;
     gap: 25px;
  
@@ -42,6 +42,7 @@ ul{
     gap: 20px;
     
 }
+
 
 li{
     list-style: none; 
@@ -61,6 +62,7 @@ body{
 }
 .informacao{
     display: flex;
+    flex-direction: column;
     justify-content:center;
     
 }
@@ -69,6 +71,7 @@ body{
 .logoprincipal{
     width: 70%;
     margin-top: 6%;
+    margin-left: 21.5rem;
     /*filter: drop-shadow(0 0 0.5rem rgb(185, 185, 185));*/
     
    
@@ -115,6 +118,7 @@ body{
 
 
 h1{
+    padding-top: 5rem;
     font-size: 34px;
     text-align: center;
 }
@@ -124,26 +128,58 @@ p{
     margin: 25px;
     text-align: center;
 }
+
+
 /*QUEM SOMOS*/
 
 .quemsomos{
-    background-color: rgba(169, 222, 249, 0.70);
+    background-color: rgba(189, 116, 232, 0.70);
     width: 100%;
 
 
 }
 
 .programa{
-    background-color: rgba(246, 148, 198, 0.75);
+    background-color: rgba(255, 255, 255, 0.75); 
     width: 100%;
 
 
 }
 
 
+.listaordenada{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 21.5rem;
+    padding: 88px 0;
+}
 
 
-/* #d3f8e2, #e4c1f9, #f694c1, #ede7b1 , #a9def9*/
+
+
+h2{
+    font-size: 3rem;
+    gap: 5rem;
+    text-align: center;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.icon{
+    max-height: 25rem;
+}
+
+
+
+/* #d3f8e2, #e4c1f9, #f694c1,#ffadad , #a9def9*/
 
 
 /*RODAPÉ*/

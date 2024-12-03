@@ -166,7 +166,7 @@ body{
 }
 .icon{
     display: flex;
-flex-direction: row;
+    flex-direction: row;
     width: 90px;
 
 }
