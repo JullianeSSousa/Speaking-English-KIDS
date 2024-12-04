@@ -250,39 +250,84 @@ strong{
 
 
 
-@media (max-width: 480px) {
-    /* Texto reduzido */
-    h1 {
-        font-size: 24px;
+@media (max-width: 768px) {
+    /* Sidebar centralizada */
+    .sidebar {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2%;
     }
 
-    h2 {
-        font-size: 18px;
-    }
-
-    p {
-        font-size: 16px;
-    }
-
-    /* Botões mais compactos */
-    .botaolink {
-        font-size: 14px;
-        padding: 10px;
-    }
-
-    /* Espaçamento geral */
-    .quemsomos {
-        padding: 3%;
-    }
-
-    .botoes {
+    /* Menu responsivo */
+    ul {
+        flex-direction: column;
+        margin: 0;
         gap: 10px;
     }
 
-    .textoprograma{
-        font-size: 4rem;
-    
-        margin: 5rem 10rem 1rem 10rem;
-    
+    li {
+        font-size: 16px;
+    }
+
+    /* Logotipo menor */
+    .logomenor {
+        width: 100px;
+        margin: auto;
+    }
+
+    /* Ajuste no logotipo principal */
+    .logoprincipal {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    /* Botões centralizados */
+    .botoes {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .botaolink {
+        width: 90%;
+        height: auto;
+        font-size: 16px;
+        padding: 15px 0;
+    }
+
+    /* Sessão Quem Somos */
+    .textolateral {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .quemsomosimg {
+        margin: auto;
+        width: 90%;
+    }
+
+    /* Programa */
+    .listaordenada {
+        flex-direction: column;
+        margin: 0 auto;
+       
+    }
+
+    /* Ícones menores */
+    .icon {
+        max-width: 80%;
+        scale: 30%;
+
+    }
+
+    /* Rodapé responsivo */
+    #contatos {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    strong {
+        margin: 0;
+        font-size: 14px;
     }
 }
