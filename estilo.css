@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
    
 }
 
@@ -290,7 +291,7 @@ strong{
 
     .botaolink {
         width: 90%;
-        height: auto;
+        height: 50%;
         font-size: 16px;
         padding: 15px 0;
     }
@@ -316,7 +317,7 @@ strong{
     /* Ícones menores */
     .icon {
         max-width: 80%;
-        scale: 30%;
+        scale: 40%;
 
     }
 
@@ -324,6 +325,7 @@ strong{
     #contatos {
         flex-direction: column;
         text-align: center;
+        padding: 20px;
     }
 
     strong {
