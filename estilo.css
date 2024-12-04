@@ -118,7 +118,7 @@ a{
 
 
 h1{
-    padding-top: 5rem;
+    padding-top: 8rem;
     font-size: 38px;
     text-align: center;
 }
@@ -134,8 +134,8 @@ p{
 
 .quemsomos{
 
-    background-color: rgba(156, 248, 243);
-    padding: 8% 0;
+    background-color: rgba(255,236,182, 0.89);
+    padding: 6% 0;
 
 
 }
@@ -143,7 +143,9 @@ p{
 #quemsomos{
     text-align:right;
     margin-right: 15%;
+
 }
+
 
 .textolateral{
     display: flex;
@@ -174,8 +176,19 @@ p{
 
 .programa{
     background-color: rgba(255, 255, 255, 0.75); 
-    width: 100%;
+    padding: 1% 0;
 
+
+}
+
+.titulo {
+    padding-top: 8rem;
+    font-size: 38px;
+    text-align: center;}
+
+.textoprograma{
+    
+    margin: 5rem 10rem 1rem 10rem;
 
 }
 
@@ -184,7 +197,7 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 21.5rem;
+    margin: 15%;
     padding: 88px 0;
 }
 
@@ -201,7 +214,6 @@ h2{
 .icons{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 5px;
 
@@ -238,27 +250,83 @@ strong{
 
 
 @media (max-width: 768px) {
-    .sidebar{
+    /* Sidebar centralizada */
+    .sidebar {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    /* Menu responsivo */
+    ul {
+        flex-direction: column;
+        margin: 0;
+        gap: 10px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    /* Logotipo menor */
+    .logomenor {
+        width: 100px;
+        margin: auto;
+    }
+
+    /* Ajuste no logotipo principal */
+    .logoprincipal {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    /* Botões centralizados */
+    .botoes {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .botaolink {
+        width: 90%;
+        height: auto;
+        font-size: 16px;
+        padding: 15px 0;
+    }
+
+    /* Sessão Quem Somos */
+    .textolateral {
+        flex-direction: column;
         text-align: center;
     }
 
-    .body{
-        scale: 100%;
-        
-  
+    .quemsomosimg {
+        margin: auto;
+        width: 90%;
     }
 
-    .side a.nav-link {
-        display: block;
-        margin: 5px 0;
+    /* Programa */
+    .listaordenada {
+        flex-direction: column;
+        margin: 0 auto;
+       
     }
 
-    .btn {
-        display: block;
-        margin: 10px auto;
-    }
-
-    img.logoprincipal {
+    /* Ícones menores */
+    .icon {
         max-width: 80%;
+        scale: 50%;
+
+    }
+
+    /* Rodapé responsivo */
+    #contatos {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    strong {
+        margin: 0;
+        font-size: 14px;
     }
 }
