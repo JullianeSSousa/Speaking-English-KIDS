@@ -267,6 +267,7 @@ strong{
     /* Navigation Menu */
     ul {
         flex-direction: column;
+        align-items: center;
         margin: 0;
         gap: 10px;
     }
@@ -289,8 +290,11 @@ strong{
 
     .botaolink {
         width: 90%;
+        height:  18%;
         height: auto;
         font-size: 16px;
+       
+        
         padding: 15px 0;
     }
 
