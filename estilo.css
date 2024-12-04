@@ -291,7 +291,6 @@ strong{
     .botaolink {
         width: 90%;
         height:  18%;
-        height: auto;
         font-size: 16px;
         padding: 18px 0;
     }
@@ -348,6 +347,10 @@ strong{
 
     .botaolink {
         font-size: 14px;
+        width: 90%;
+        height:  18%;
+        font-size: 16px;
+        padding: 18px 0;
     }
 
     .textoprograma {
