@@ -1,0 +1,16 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+dialog::backdrop{
+    max-width: 100%;
+    background-color: aqua;
+    border-radius: 20px;
+    border-color:blueviolet;
+    border: 1px solid rgb(66, 135, 245);
+}
+button{
+
+    background-repeat: no-repeat;
+    padding: 350px;
+}

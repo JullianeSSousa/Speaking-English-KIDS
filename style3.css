@@ -9,13 +9,22 @@ body{
 
 .container-body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(assents/freepik__a-colorful-abstract-space-scene-with-swirling-clou__35377.jpeg); /*imagem como preenchimento de plano de fundo*/
-    backdrop-filter: blur(3px);
+    background-image: url(assents/freepik__a-colorful-abstract-space-scene-with-swirling-clou__35377.jpeg); /*imagem como preenchimento de plano de fundo*/ 
     background-repeat: no-repeat; 
     background-size:cover; /*Escala a imagem o máximo possível*/
     color: white;
 }
+.container-body-avancado{
 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(assents/boy-celebration.jpg); /*imagem como preenchimento de plano de fundo*/
+    backdrop-filter: blur(1px);
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size:cover; /*Escala a imagem o máximo possível*/
+    color: white;
+
+}
 .container{ /*estilo da div principal*/
     display: grid; /*um contêiner de grade , qual o objetivo foi organizar os elementos em linhas e colunas*/ 
     grid-template-columns: 250px 1fr; /*define o tamanho da coluna*/ 
@@ -31,7 +40,7 @@ body{
     border-radius: 20px;
     padding: 1rem;
     background: rgb(2,0,36);
-    background: linear-gradient(187deg, rgba(2,0,36,0.2945553221288515) 0%, rgba(228,193,249,1) 46%, rgba(169,222,249,1) 100%);
+    background-color: rgba(255, 111, 97, 0.70);
 
 }
 
@@ -157,6 +166,41 @@ body{
     padding: 10rem;
     border: 3px solid color(white);
     background-image: url(assents/front-view-child-holding-pile-books-copy-space.jpg);
+    background-repeat: no-repeat;
+    background-position: center baseline;
+    background-size:cover;
+    border-radius: 15px;
+    border-style:hidden;
+}
+
+.post7{
+    padding: 10rem;
+    border: 3px solid color(white);
+    background-image: url(assents/photorealistic-portfone.jpg);
+    background-repeat: no-repeat;
+    background-position: center baseline;
+    background-size:cover;
+    border-radius: 15px;
+    border-style:hidden;
+}
+
+.post8{
+    padding: 10rem;
+    color: black;
+    border: 3px solid color(white);
+    background-image: url(assents/falando.jpg);
+    background-repeat: no-repeat;
+    background-position: center baseline;
+    background-size:cover;
+    border-radius: 15px;
+    border-style:hidden;
+}
+
+
+.post9{
+    padding: 10rem;
+    border: 3px solid color(white);
+    background-image: url(assents/meninobandeira.jpg);
     background-repeat: no-repeat;
     background-position: center baseline;
     background-size:cover;
