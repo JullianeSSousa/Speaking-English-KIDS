@@ -71,7 +71,7 @@ a{
 .logoprincipal{
     width: 70%;
     margin-top: 6%;
-    margin-left: 21.5rem;
+    margin-left: 15%;
     /*filter: drop-shadow(0 0 0.5rem rgb(185, 185, 185));*/
     
    
@@ -249,87 +249,6 @@ strong{
 }
 
 
-@media (max-width: 768px) {
-    /* Sidebar centralizada */
-    .sidebar {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-top: 2%;
-    }
-
-    /* Menu responsivo */
-    ul {
-        flex-direction: column;
-        margin: 0;
-        gap: 10px;
-    }
-
-    li {
-        font-size: 16px;
-    }
-
-    /* Logotipo menor */
-    .logomenor {
-        width: 100px;
-        margin: auto;
-    }
-
-    /* Ajuste no logotipo principal */
-    .logoprincipal {
-        width: 90%;
-        margin: 20px auto;
-    }
-
-    /* Botões centralizados */
-    .botoes {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .botaolink {
-        width: 90%;
-        height: auto;
-        font-size: 16px;
-        padding: 15px 0;
-    }
-
-    /* Sessão Quem Somos */
-    .textolateral {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .quemsomosimg {
-        margin: auto;
-        width: 90%;
-    }
-
-    /* Programa */
-    .listaordenada {
-        flex-direction: column;
-        margin: 0 auto;
-       
-    }
-
-    /* Ícones menores */
-    .icon {
-        max-width: 80%;
-        scale: 50%;
-
-    }
-
-    /* Rodapé responsivo */
-    #contatos {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    strong {
-        margin: 0;
-        font-size: 14px;
-    }
-}
 
 @media (max-width: 480px) {
     /* Texto reduzido */
