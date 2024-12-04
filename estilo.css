@@ -330,3 +330,40 @@ strong{
         font-size: 14px;
     }
 }
+
+@media (max-width: 480px) {
+    /* Texto reduzido */
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    /* Botões mais compactos */
+    .botaolink {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Espaçamento geral */
+    .quemsomos {
+        padding: 3%;
+    }
+
+    .botoes {
+        gap: 10px;
+    }
+
+    .textoprograma{
+        font-size: 4rem;
+    
+        margin: 5rem 10rem 1rem 10rem;
+    
+    }
+}
