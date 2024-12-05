@@ -85,6 +85,26 @@ body{
     transition: all 0.3s ease; /* Adiciona uma transição suave */
 }
 
+
+.nivel_botao{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5%;
+    padding: 10px;
+    width:  200px;
+    height:  50px;
+    border-radius: 15px ;
+    background-color:#a9def9;
+
+}
+.nivel_botao:hover{
+    cursor: pointer;
+    padding: 1%;
+    background-color: #e4c1f9 ;
+    border: 4px solid #a9def9;
+}
+
+
 .inicio_botao{
     margin-top: 100px;
     font-size: 18px;
@@ -260,9 +280,9 @@ h2{
 }
 
 
-/* Responsive Design: Mobile & Tablet Breakpoints */
+/* Design responsivo: pontos de interrupção para dispositivos móveis e tablets */
 @media screen and (max-width: 768px) {
-    /* Change the grid layout to a single column */
+    /* Altera o layout da grade para uma única coluna */
     .container {
         grid-template-columns: 1fr; /* Single-column layout */
         padding: 1rem;
@@ -295,11 +315,33 @@ h2{
         gap: 0.25rem;
     }
 
+    .nivel_botao{
+        font-size: 16px;
+        padding: 8px;
+        width: 150px; /* Adjust button size */
+        height: 40px;
+    }
+
+    .nivel_botao:hover{
+        cursor: pointer;
+        padding: 1%;
+        background-color: #e4c1f9 ;
+        border: 2px solid #a9def9;
+
+    }
+
     .inicio_botao {
         font-size: 16px;
         padding: 8px;
         width: 150px; /* Adjust button size */
         height: 40px;
+    }
+
+    .inicio_botao:hover{
+        cursor: pointer;
+        padding: 1%;
+        background-color: #a9def9;
+        border: 4px solid #e4c1f9;
     }
 
     /* Adjust the font size and padding for posts */
@@ -318,46 +360,60 @@ h2{
 }
 
 @media screen and (max-width: 480px) {
-    /* Further adjustments for very small screens (mobile phones) */
-    .container {
-        padding: 0.5rem;
-    }
+  /* Mais ajustes para telas muito pequenas (celulares) */
 
-    .sidebar {
-        padding: 0.5rem;
-        background-color: rgba(224, 110, 163, 0.90);
-    }
-    .sidebar2{
-        padding: 0.5rem;
-        background-color: rgba(255, 111, 97, 0.90);
-    }
-    .sidebar3{
-        padding: 0.5rem;
-        background-color: rgba(6, 184, 78, 0.90);
-    }
-    }
-
-    .profile-photo {
-        margin-top: 20px;
-        width: 70%; /* Make the profile photo even smaller */
-    }
-
-    .info {
-        font-size: 20px; /* Further reduce font size */
-    }
-
-    .inicio_botao {
-        font-size: 14px;
-        padding: 6px;
-        width: 120px; /* Adjust the button for small screens */
-        height: 35px;
-    }
-
-    .post, .post1, .post2, .post3, .post4, .post5, .post6, .post7, .post8, .post9 {
-        padding: 3rem; /* Even less padding for mobile */
-    }
-
-    h2 {
-        font-size: 26px; /* Smaller heading font */
-    }
+  .container {
+    padding: 0.5rem;
 }
+
+.sidebar {
+    padding: 0.5rem;
+    background-color: rgba(224, 110, 163, 0.90);
+}
+.sidebar2{
+    padding: 0.5rem;
+    background-color: rgba(255, 111, 97, 0.90);
+}
+.sidebar3{
+    padding: 0.5rem;
+    background-color: rgba(6, 184, 78, 0.90);
+}
+
+
+.profile-photo {
+    margin-top: 20px;
+    width: 70%; /* Make the profile photo even smaller */
+}
+
+.info {
+    font-size: 20px; /* Further reduce font size */
+}
+
+
+.nivel_botao{
+    font-size: 14px;
+    padding: 6px;
+    width: 120px; /* Adjust the button for small screens */
+    height: 35px;
+
+}
+
+
+.inicio_botao {
+    font-size: 14px;
+    padding: 6px;
+    width: 120px; /* Adjust the button for small screens */
+    height: 35px;
+}
+
+.post, .post1, .post2, .post3, .post4, .post5, .post6, .post7, .post8, .post9 {
+    padding: 3rem; /* Even less padding for mobile */
+}
+
+h2 {
+    font-size: 26px; /* Smaller heading font */
+}
+
+
+}
+  
