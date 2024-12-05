@@ -60,6 +60,9 @@ a{
     color:black;
 }
 
+a:hover{
+    color:yellow;
+}
 
 .informacao{
     display: flex;
@@ -234,6 +237,7 @@ h2{
 
 #contatos{
     display: flex;
+    flex-direction: column;
     background-color: #e4c1f9;
     padding: 30px;
     color:black;
@@ -244,9 +248,24 @@ strong{
 }
 .iconparceria{
 
-    width: 10px;
-  
-   
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    gap: 13px;
+    margin-left: 45%;
+
+
+
+}
+
+.iconparceria:hover{
+    cursor: pointer;
+    filter:invert(100%);
+
+
+
+
 }
 
 
@@ -270,6 +289,10 @@ strong{
         align-items: center;
         margin: 0;
         gap: 10px;
+    }
+    
+    a:hover{
+    color:yellow;
     }
 
     li {
@@ -333,6 +356,11 @@ strong{
     strong {
         margin: 0;
         font-size: 14px;
+    }
+
+    .iconparceria:hover{
+        cursor: pointer;
+        filter:invert(100%);
     }
 }
 
