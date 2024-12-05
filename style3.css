@@ -40,7 +40,29 @@ body{
     border-radius: 20px;
     padding: 1rem;
     background: rgb(2,0,36);
-    background-color: rgba(255, 111, 97, 0.70);
+    background-color: rgba(224, 110, 163, 0.90);
+
+}
+
+.sidebar2{
+    display: flex;
+    flex-direction: column; /*posiciona os itens de cima para baixo,o flex-direction deve sempre estar com o dispaly flex*/
+    gap: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgb(2,0,36);
+    background-color: rgba(255, 111, 97, 0.90);
+
+}
+
+.sidebar3{
+    display: flex;
+    flex-direction: column; /*posiciona os itens de cima para baixo,o flex-direction deve sempre estar com o dispaly flex*/
+    gap: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgb(2,0,36);
+    background-color: rgba(6, 184, 78, 0.90);
 
 }
 
